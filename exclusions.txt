@@ -1,0 +1,14 @@
+123.10.15.123
+144.42.23.21
+98.220.100.15
+fake-domain.ru/a-very-long-link
+sub.fake-domain.com
+227476a1d172a4d0a4d1186bd19efb5d
+97D5C6D3FB4CF9FE61F774762032768B47EBEFFB
+1939e9d2ab9b8c7efe1d9712116391733cd011d7c822b55ee1a5ee61f39fa49c
+fake-file.exe
+fake@email.com
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+123.123.123.123
+this-domain-is-not-malicious.com
+this-is-a-new-ioc.com
