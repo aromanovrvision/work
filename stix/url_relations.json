@@ -1,0 +1,174 @@
+{
+  "type": "bundle",
+  "id": "bundle--44af6c39-c09b-49c5-9de2-394224b04982",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--95354676-4b6d-4752-80f2-e7c2cfba708f",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[url:value = 'relationurl-stix-os.main']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "dos",
+        "exploit_attempt"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--d796f41b-aeae-4879-8790-93eaac439434",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.MD5 = '7a4eb233c0e7d18414343b74fd587c6c']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "unauthorized_modification"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--0fce19d1-775e-46fc-852d-fec191c3bf3a",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'SHA-256' = '81a4bbbc99ef31c85679ef405e0303b65d6b850e591f5692ad963e5779d15413']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "scanning",
+        "social_engineering"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--278f36ca-d361-43c1-80c3-818e77423f5d",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'sha1' = '53dd2fd0979ae1f85aed4f483667164c76df32a2']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "spam",
+        "traffic_hijacking"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--bd992495-aa31-489d-ae4a-31dcf05ee847",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[ipv4-addr:value = '144.167.135.15']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "abusive_content",
+        "account_compromise"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--35433958-989f-41a0-9b15-0c32b74e42f6",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[domain-name:value = 'relationdomain-stix-os.url']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "malware_distribution",
+        "malware_infrastructure"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "indicator--d796f41b-aeae-4879-8790-93eaac439434",
+      "target_ref": "indicator--95354676-4b6d-4752-80f2-e7c2cfba708f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "indicator--0fce19d1-775e-46fc-852d-fec191c3bf3a",
+      "target_ref": "indicator--95354676-4b6d-4752-80f2-e7c2cfba708f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "indicator--278f36ca-d361-43c1-80c3-818e77423f5d",
+      "target_ref": "indicator--95354676-4b6d-4752-80f2-e7c2cfba708f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "indicator--bd992495-aa31-489d-ae4a-31dcf05ee847",
+      "target_ref": "indicator--95354676-4b6d-4752-80f2-e7c2cfba708f"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "indicator--35433958-989f-41a0-9b15-0c32b74e42f6",
+      "target_ref": "indicator--95354676-4b6d-4752-80f2-e7c2cfba708f"
+    }   
+  ]
+}
