@@ -10,9 +10,7 @@
       "created": "2015-05-15T09:12:16.432Z",
       "modified": "2015-05-15T09:12:16.432Z",
       "pattern": "[ipv4-addr:value = '223.166.0.12']",
-      "indicator_types": [
-        "malicious-activity"
-      ],
+      "indicator_types": "malicious-activity",
       "valid_from": "2015-05-15T09:12:16.432678Z"
     }
   ]
