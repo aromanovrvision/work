@@ -3,7 +3,7 @@
   "id": "bundle--ac946f1d-6a0e-4a9d-bc83-3f1f3bfda6ba",
   "objects": [
     {
-      "type": "indicator",
+      "typre": "insdgsdgator",
       "spec_version": "2.1",
       "pattern_type": "stix",
       "id": "indicator--031778a4-057f-48e6-9db9-c8d72b81ccd5",
