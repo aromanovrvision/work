@@ -1,0 +1,55 @@
+{
+  "type": "bundle",
+  "id": "bundle--ac946f1d-6a0e-4a9d-bc83-3f1f3bfda6ba",
+  "objects": [
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--e33ffe07-2f4c-48d8-b0af-ee2619d765cf",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "name": "APT1: Exposing One of China's Cyber Espionage Units Stix OS",
+      "description": "Since 2004, Mandiant has investigated computer security breaches at hundreds of organizations around the world. The majority of these security breaches are attributed to advanced threat actors referred to as the 'Advanced Persistent Threat' (APT). We first published details about the APT in our January 2010 M-Trends report. As we stated in the report, our position was that 'The Chinese government may authorize this activity, but theres no way to determine the\textent of its involvement.' Now, three years later, we have the evidence required to change our assessment. The details\twe have analyzed during hundreds of investigations convince us that the groups conducting these activities are based primarily in China and that the Chinese Government is aware of them. Mandiant continues to track dozens of APT groups around the world; however, this report is focused on the most prolific of these groups. We refer to this group as 'APT1' and it is one of more than 20 APT groups with origins in China. APT1 is a single organization of operators that has conducted a cyber espionage campaign against a broad range of victims since at least 2006. From our observations, it is one of the most prolific cyber espionage groups in terms of the sheer quantity of information stolen. The scale and impact of APT1's operations compelled us to write this report. The activity we have directly observed likely represents only a small fraction of the cyber espionage that APT1 has conducted. Though our visibility of APT1's activities is incomplete, we have analyzed the group's intrusions against nearly 150 victims over seven years. From our unique vantage point responding to victims, we tracked APT1 back to four large networks in Shanghai, two of which are allocated directly to the Pudong New Area. We uncovered a substantial amount of APT1's attack infrastructure, command and control, and modus operandi (tools, tactics, and procedures). In an effort to underscore there are actual individuals behind the keyboard, Mandiant is revealing three personas we have attributed to APT1. These operators, like soldiers, may merely be following orders given to them by others. Our analysis has led us to conclude that APT1 is likely government-sponsored and one of the most persistent of China's cyber threat actors. We believe that APT1 is able to wage such a long-running and extensive cyber espionage campaign in large part because it receives direct government support. In seeking to identify the organization behind this activity, our research found that People's Liberation Army (PLA's) Unit 61398 is similar to APT1 in its mission, capabilities, and resources. PLA Unit 61398 is also located in precisely the same area from which APT1 activity appears to originate.",
+      "report_types": [
+        "threat-report",
+        "threat-actor"
+      ],
+      "published": "2013-02-19T00:00:00.000000Z",
+      "object_refs": [
+        "attack-pattern--3098c57b-d623-4c11-92f4-5905da66658b",
+        "identity--0e9d20d9-fb11-42e3-94bc-b89fb5b007ca"
+      ],
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2012-0158",
+          "description": "Threat report",
+          "url": "http://capec.mitre.org/data/definitions/550.html",
+          "hashes": {
+            "SHA-256": "6db12788c37247f2316052e142f42f4b259d6561751e5f401a1ae2a6df9c674b"
+          }
+        }
+      ],
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "revoked": true,
+      "labels": [
+        "heartbleed",
+        "has-logo"
+      ],
+      "confidence": 5,
+      "lang": "en",
+      "object_marking_refs": [
+        "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+      ],
+      "granular_markings": [
+        {
+          "selectors": [
+            "description"
+          ],
+          "lang": "de",
+          "marking_ref": "marking-definition--089a6ecb-cc15-43cc-9494-767639779123"
+        }
+      ]
+    }
+  ]
+}

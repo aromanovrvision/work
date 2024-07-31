@@ -1,0 +1,68 @@
+{
+  "type": "bundle",
+  "id": "bundle--ac946f1d-6a0e-4a9d-bc83-3f1f3bfda6ba",
+  "objects": [
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--b67d30ff-02ac-498a-92f9-32f845f448cf",
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:59:39.609Z",
+      "first_observed": "2006-06-01T18:13:15.684Z",
+      "last_observed": "2007-07-07T18:14:15.684Z",
+      "number_observed": 50,
+      "objects":
+        {
+            "0": {
+              "type": "ipv4-addr",
+              "id": "ipv4-addr--ff26c055-6336-5bc5-b98d-13d6226742dd",
+              "value": "198.51.111.3"
+            }
+        }
+    },
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--cbe6c678-3d7b-4d5c-a4da-b18dbd113d79",
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:59:39.609Z",
+      "first_observed": "2006-06-01T18:13:15.684Z",
+      "last_observed": "2007-07-07T18:14:15.684Z",
+      "number_observed": 50,
+      "objects":
+        {
+          "0": {
+            "type": "file",
+            "id": "file--ff1e0780-358c-5808-a8c7-d0fca4ef6ef4",
+            "name": "foostixopensearch.zip"
+          }
+        }
+    },
+    {
+      "type": "observed-data",
+      "spec_version": "2.1",
+      "id": "observed-data--6261f0f1-3c75-4a8c-80fe-c066aa5755c4",
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:59:39.609Z",
+      "first_observed": "2006-06-01T18:13:15.684Z",
+      "last_observed": "2007-07-07T18:14:15.684Z",
+      "number_observed": 50,
+      "objects":
+        {
+            "0": {
+              "type": "url",
+              "id": "url--90034cee-44ce-44ee-a7c0-57398fc1537a",
+              "value": "https://observable-stix-os.testurl"
+            },
+            "1": {
+              "type": "domain-name",
+              "id": "domain-name--f6eca978-6f11-42e9-981a-129668dc5118",
+              "value": "observable-domain1-stix-os.com"
+            }
+        }
+    }
+  ]
+}
