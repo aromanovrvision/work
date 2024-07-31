@@ -1,0 +1,392 @@
+{
+  "type": "bundle",
+  "id": "bundle--ac946f1d-6a0e-4a9d-bc83-3f1f3bfda6ba",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031778a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[ipv4-addr:value = '223.166.0.0/15']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "abusive_content",
+        "account_compromise"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031779a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[ipv6-addr:value = 'b8bc:65f9:1b50:4f5d:c577:43a9:9614:a6b3']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "application_compromise",
+        "ddos"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031780a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[url:value = 'stixurl1.test']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "dos",
+        "exploit_attempt"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031781a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:name = 'stixfile1.name']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "malware",
+        "malware_cnc"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031782a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[domain-name:value = 'stixdomain1.com']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "malware_distribution",
+        "malware_infrastructure"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031783a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[email-message:to_refs = 'stixemail1@gmail.com']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "abusive_content",
+        "account_compromise"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--b049383a-d42d-4af5-8120-73c30c60068f",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[email-message:from_ref = 'stixemail2@gmail.com']",
+      "description": "This is a test indicator from STIX file",
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031785a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[email-message:cc_refs = 'stixemail3@gmail.com']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "abusive_content",
+        "account_compromise"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031786a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[email-message:bcc_refs = 'stixemail4@gmail.com']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "abusive_content",
+        "account_compromise"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031787a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'SHA-256' = '6B86B273FF34FCE19D6B804EFF5A3F5747ADA4EAA22F1D49C01E52DDB7875B4B']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "scanning",
+        "social_engineering"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031788a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'sha-256' = '6B51D431DF5D7F141CBECECCF79EDF3DD861C3B4069F0B11661A3EEFACBBA918']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "scanning",
+        "social_engineering"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031789a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'sha256' = 'A665A45920422F9D417E4867EFDC4FB8A04A1F3FFF1FA07E998E86F7F7A27AE3']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "scanning",
+        "social_engineering"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031790a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.SHA256 = '03AC674216F3E15C761EE1A5E255F067953623C8B388B4459E13F978D7C846F4']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "scanning",
+        "social_engineering"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031791a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'SHA-1' = '356A192B7913B04C54574D18C28D46E6395428AB']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "spam",
+        "traffic_hijacking"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031792a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'sha-1' = '7B52009B64FD0A2A49E6D8A939753077792B0554']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "spam",
+        "traffic_hijacking"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031793a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'sha1' = '40BD001563085FC35165329EA1FF5C5ECBDBBEEF']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "spam",
+        "traffic_hijacking"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031794a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.SHA1 = '7110EDA4D09E062AA5E4A390B0A572AC0D2C0220']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "spam",
+        "traffic_hijacking"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031795a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.MD5 = '6DBEE678BAD2CD9E627DC8476DB6C858']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "unauthorized_modification"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031796a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'MD5' = '1723F6C17FF59915FA9DDFE1BBC09B28']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "unauthorized_purposes"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--031797a4-057f-48e6-9db9-c8d72b81ccd5",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.'md5' = '289AC26D172B64CCA83EE92F4D4D5E81']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "vulnerability_exploitation",
+        "vulnerable_host"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1"
+      ]
+    }
+  ]
+}
