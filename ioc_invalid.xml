@@ -1895,8 +1895,7 @@
       <Str>My string 188</Str>
       <Time>2024-08-20T23:00:00Z</Time>
     </Indicator>
-        </Indicator>
-        <Indicator id="2712ecf6-0021-3b03-93ed-fe1a0ecf932a">
+    <Indicator id="2712ecf6-0021-3b03-93ed-fe1a0ecf932a">
       <description>13_inn</description>
       <Context document="AddressObject">
         <Content type="ip" search="equals">85.22.54.142</Content>
