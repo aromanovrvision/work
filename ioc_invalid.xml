@@ -1885,14 +1885,14 @@
       </Registrars>
       <Bool>false</Bool>
       <Dict>2</Dict>
-      <E-mail>campaig@test.ru</E-mail>
-      <INN>138412283019</INN>
+      <E-mail>campaigedited@test.ru</E-mail>
+      <INN>1234567890123</INN>
       <Int>12</Int>
-      <Link>https://old.reactoredited.cc/all</Link>
+      <Link>https://old.reactor.cc/all</Link>
       <Luna>5062821234567892</Luna>
-      <Mult>First line.\n Second line.</Mult>
+      <Mult>First line.\n Second line. EDITED</Mult>
       <Reg>12.133.46.05</Reg>
-      <Str>My string 188</Str>
+      <Str>My string 188 EDITED</Str>
       <Time>2024-08-20T23:00:00Z</Time>
     </Indicator>
     <Indicator id="2712ecf6-0021-3b03-93ed-fe1a0ecf932a">
@@ -1926,16 +1926,16 @@
         <ASNOwner>Boris</ASNOwner>
       </ASNOwners>
       <Registrars>
-        <Registrars>New registrar</Registrars>
+        <Registrars>Sophia999</Registrars>
       </Registrars>
       <Bool>false</Bool>
       <Dict>2</Dict>
       <E-mail>campaig@test.ru</E-mail>
       <INN>1234567890123</INN>
       <Int>12</Int>
-      <Link>https://ololol.cc/all</Link>
+      <Link>https://old.reactor.cc/all</Link>
       <Luna>5062821234567892</Luna>
-      <Mult>First line.\n Second line.</Mult>
+      <Mult>new indicator.\n Second line.</Mult>
       <Reg>12.133.46.05</Reg>
       <Str>My string 188</Str>
       <Time>2024-08-20T23:00:00Z</Time>
