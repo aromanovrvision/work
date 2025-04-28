@@ -1,0 +1,44 @@
+[
+{
+	"cve": "CVE-2025-99997",
+	"name": "CVE-2025-99997 opensource",
+	"description": "I'm a vulnerabilitiy",
+	"baseScorev2": 7.1,
+    "baseScorev3": 7.2,
+	"vector": "3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N",
+	"reporter": "pretty woman 7",
+	"published_at": "2024-06-26T00:00:00Z",
+	"updated_at": "2024-07-04T00:00:00.901Z",
+	"tags": ["os_vulnerability_json"],
+	"class": "рандом",
+	"solution": "This is solution"
+},
+{
+	"cve": "CVE-2025-99998",
+	"name": "CVE-2025-99998 opensource",
+	"description": "I'm a vulnerabilitiy",
+	"baseScorev2": 5,
+    "baseScorev3": null,
+	"vector": "3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N/RL:O",
+	"reporter": "pretty woman 8",
+	"published_at": "2024-06-26T20:59:59Z",
+	"updated_at": "2024-07-04T20:59:59.901Z",
+    "tags": ["os_vulnerability_json"],
+	"class": "Уязвимость многофакторная",
+	"solution": "Еще солюшн 12321 @#$%^&*91231"
+},
+{
+	"cve": "CVE-2025-99999",
+	"name": "CVE-2025-99999 opensource",
+	"description": "I'm a vulnerabilitiy",
+	"baseScorev2": null,
+    "baseScorev3": 4,
+	"vector": "3.3/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N",
+	"reporter": "pretty woman 9",
+	"published_at": "2024-06-26T21:00:00Z",
+	"updated_at": "2024-07-04T21:00:00.901Z",
+	"tags": ["os_vulnerability_json"],
+	"class": "Уязвимость кода",
+	"solution": "This is solution"
+}
+]
