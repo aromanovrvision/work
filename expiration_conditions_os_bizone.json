@@ -5,6 +5,7 @@
 {"value":"dilawris.com","description":"inactive Observable","labels":["OS-BIZONE inactive obs-inactive obs"], "isIoc":false,"isActive":false},
 {"value":"dominqocampos.com","description":"active IOC","labels":["OS-BIZONE active ioc-inactive obs"],"isIoc":true,"isActive":true},
 {"value":"dhanveenpgments.com","description":"inactive IOC","labels":["OS-BIZONE inactive ioc-inactive obs"], "isIoc":true,"isActive":false},
-{"value":"americanwallkincoolers.com","description":"active Observable","labels":["OS-BIZONE active obs-inactive ioc"],"isIoc":false,"isActive":true},
+{"value":"americanwallkincoolers.com","description":"active Observable","labels":["OS-BIZONE active obs-inactive ioc"],"isIoc":true,"isActive":true},
 {"value":"aecczzyqfnlcsv.com","description":"inactive Observable","labels":["OS-BIZONE inactive obs-inactive ioc"], "isIoc":false,"isActive":false}
+
 ]
