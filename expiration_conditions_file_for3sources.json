@@ -1,4 +1,5 @@
 [
-{"value":"79.98.18.214","description":"incatice OBS","labels":["inactive obs"],"isIoc":false,"isActive":false},
-{"value":"79.98.18.215","description":"inactive IOC","labels":["inactive ioc"],"isIoc":false,"isActive":true}
+{"value":"79.98.18.214","description":"incatice OBS","labels":["inactive obs"],"isIoc":true,"isActive":false},
+{"value":"79.98.18.215","description":"inactive IOC","labels":["inactive ioc"],"isIoc":true,"isActive":true}
+
 ]
